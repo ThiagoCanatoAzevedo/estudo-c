@@ -1,0 +1,16 @@
+- Compilador e IDE:
+  * IDE: Onde o programa é escrito (linguagem humana)
+  * Compilador: Onde o programa escrito é traduzido para linguagem de Computador
+    - Tarefas do compilador: 
+      1. Pré processamento: Nessa etapa onde as constantes definidas são substituidas
+      2. Compilação: Etapa onde é gerado um código de montagem (código intermediário entre o código em C e o código em binário, executado pela máquina)
+      3. Ligação: Nessa etapa, as funções que estão sendo utilizadas no código são ligados ao código original (nosso programa)
+
+- Compilação:
+  * Compilando no terminal: gcc <nome do arquivo>.c -o <nome do executável>
+  * Outras opções (Flags):
+    - -std=c99: Define o padrão C. Nesse caso, o 99
+    - -Wall: Mostra mais warnings de compilação
+    - -Werror: Warnings viram erros de compilação
+    - -g: Permite usar GDB e Valgrind
+    - -o: Define o nome do executável
