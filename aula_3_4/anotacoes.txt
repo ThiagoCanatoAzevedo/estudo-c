@@ -1,0 +1,41 @@
+- Variáveis: Em C, toda variável precisa ser declarada antes de usada, bem como seu tipo
+  * Exemplo: int i; --> a variável 'i' é do tipo inteiro
+  
+  - Pode-se declarar mais de uma variável numa mesma linha
+    * Exemplo: int i, j, k; --> as variáveis 'i', 'j', 'k' são do tipo inteiro  
+
+  - Regras para nome: 
+    * Deve ser inicializada com uma letra ou com '_';
+    * Nunca pode começar com um número
+    * Não pode conter símbolos especias, como #, $, @ e outros
+
+  - Podem ocupar tamanhos diferentes na memória (isso pode depender do compilador também...):
+        TIPO     |     BYTES     
+        short    |       2       
+        int      |       4       
+        long     |       8       
+        --------------------
+        float    |       4       
+        double   |       8       
+        --------------------
+        char     |       1       
+    
+    * O espaço ocupado por uma variável depende do seu tipo
+    * O endereço de uma variável é obtido pelo operador &
+
+    - Modificadores para tipos inteiros:
+      * Modificador Unsigned: Armazena apenas valores positivos
+        
+             TIPO       | BYTES |          VALORES     
+        unsigned short  |   2   |        0 a 65.536   
+        unsigned int    |   4   |     0 a 4.294.967 295
+        unsigned long   |   8   |        0 a 2^64 - 1
+
+    - Variáveis de tipo ponto flutuante:
+      * Float: Precisão de aproximadamente 6 casas decimais
+      * Double: Maior precisão, porém mais lento e com maior gasto de memória; Precisão de aproximadamente 15 casas decimais
+
+    - Conversão de tipos: Tipos de variáveis podem ser convertidos (casting)
+      * O valor int pode ser convertido para double e double pode ser convertido para int
+      
+        
