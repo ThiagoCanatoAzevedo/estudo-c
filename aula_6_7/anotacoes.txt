@@ -1,0 +1,52 @@
+- Operadores aritméticos: Podemos atribuir expressões com valores em variáveis, constantes ou resultados de outras
+expressões
+  * Sintaxe: variável = expressão;
+  * Em divisões (/) o resultado depende do tipo dos operandos. Exemplo
+    - int/int = int --> 6/4 = 1
+    - float/float = float --> 6/4 = 1.5 
+
+- Incremento e Decremento (++ e --): 
+  * Incremento: É comum escrevermos expressões de incremento através da seguinte lógica:
+    int a = 1;
+    a = a + 1 //a = 2
+    
+    SÃO IGUAIS:
+    
+    int a = 1;
+    a++ //a = 2
+
+  - Temos, também, a seguinte expressão: ++a. A diferença entre a++ e ++a está na ordem de operação.
+    a++: o valor de a é primeiro usado na expressão e depois incrementado
+      int a = 1;
+      int x = (a++)*2; //ao final da execução temos x=2 e a=2
+
+    ++a: o valor de a é primeiro incrementado e depois usado na expressão
+      int a = 1
+      int x = (++a)*2 //ao final da execução temos x=4 e a=2 
+
+  * Decremento: Mesmo esquema do Incremento:
+      int a = 1;
+      a = a - 1 //a = 0
+      
+      SÃO IGUAIS:
+      
+      int a = 1;
+      a-- //a = 0
+
+    - Temos, também, a seguinte expressão: --a. A diferença entre a-- e --a está na ordem de operação.
+      a--: o valor de a é primeiro usado na expressão e depois decrementado
+        int a = 1;
+        int x = (a--)*2; //ao final da execução temos x=2 e a=0
+
+      --a: o valor de a é primeiro decrementado e depois usado na expressão
+        int a = 2
+        int x = (--a)*2 //ao final da execução temos x=0 e a=0
+
+- Outras abreviações: 
+  a += b --> a = a+b
+  a -= b --> a = a-b
+  a *= b --> a = a*b
+  a /= b --> a = a/b
+  a %= b --> a = a%b
+
+

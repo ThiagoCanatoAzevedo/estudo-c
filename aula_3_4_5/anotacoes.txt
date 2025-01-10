@@ -38,4 +38,9 @@
     - Conversão de tipos: Tipos de variáveis podem ser convertidos (casting)
       * O valor int pode ser convertido para double e double pode ser convertido para int
       
-        
+      
+- Constantes: Através do modificador 'const' pode-se definir váriaveis com valores constantes, ou seja, não mudam.
+  * Outra alternativa para definir constantes: comanddo #define; Usado para valores previamente determinados; 
+    Geralmente definido fora da função
+      - Quando usado o método #define, os valores são substituidos pelo pré-processador durante o processo de compilação.
+        Ou seja, o programa fica mais eficiente.

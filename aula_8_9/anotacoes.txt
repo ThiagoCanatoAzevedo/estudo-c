@@ -1,0 +1,13 @@
+- Imprimir valores: Para imprimir valores de outros tipos de dado, sem ser string (texto), devemos utilizar os formatadores
+  * %d ou %i --> Para inteiros
+  * %f --> Para floats
+  * %lf --> Para doubles
+  * %c --> Para chars
+  * %u --> Para inteiros com unasigned (sem sinal, apenas positivo)
+
+  * Se colocarmos %d para um char, ele retornará o valor ASCII do caracter 
+
+  - Exemplo:
+    int a = 10;
+    printf(a); //isso dará um erro, pois a é um inteiro
+    printf("$d", a) //isso retornará o valor de a, pois foi utilizado o formatador para inteiro
